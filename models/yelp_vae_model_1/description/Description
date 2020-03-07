@@ -1,0 +1,25 @@
+Description
+
+Model 1:
+
+Basic VAE Model
+
+intermediate_dim_1 = 50
+intermediate_dim_2 = 50
+latent_dim = 4
+
+Continuous Data - no activation or handling
+Categorical Data - One hot encoding, softmax
+Binary Data - Activation Sigmoid
+
+
+Conclusion
+
+Poor results - Average Error > 10%
+Latitude and longitude exceeds -180/+180
+Review_count might turn negative which does not make any sense
+
+Problems:
+Exploding loss, loss turned nan cause its too big, so I used sigmoid/tanh to ensure it stays within reasonable range.
+
+stars not outputting .5s. it only outputs integers

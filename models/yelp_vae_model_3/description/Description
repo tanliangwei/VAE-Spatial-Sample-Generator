@@ -1,0 +1,22 @@
+Description
+
+Model 3:
+
+Basic VAE Model
+
+Changed dimensions of weights
+intermediate_dim_1 = 12
+intermediate_dim_2 = 8
+latent_dim = 4
+
+Continuous Data - 
+	reviews - rely
+	latitude and longitude - sigmoid (normalised)
+Categorical Data - One hot encoding, softmax
+Binary Data - Activation Sigmoid
+
+
+Conclusion
+
+Poor results - 
+	-Still very bad for review counts
