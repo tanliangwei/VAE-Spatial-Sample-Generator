@@ -1,0 +1,26 @@
+Description
+
+Model 5:
+
+Basic VAE Model
+
+Changed dimensions of weights
+intermediate_dim_1 = 50 
+intermediate_dim_2 = 50
+latent_dim = 4
+Reverted to 50, 50 for intermediate layer weights since it gave better results in Model 2. 
+
+
+Main change - 
+reviews - will now try a Poisson distribution since it might fit the underlying data better
+
+Continuous Data - 
+	reviews - will now try a Poisson distribution since it might fit the underlying data better
+	latitude and longitude - normalise to 360 them before training and will likely use the Gaussian distribution afterwards. (Coordinate + 180) /360
+Categorical Data - One hot encoding, softmax
+Binary Data - Activation Sigmoid
+
+
+Conclusion
+
+Better results in general. Much better results. However, still not the best. Maybe can train longer. 
