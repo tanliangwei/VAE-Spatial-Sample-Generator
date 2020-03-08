@@ -67,7 +67,7 @@ A vanilla model. 50 and 50 for both intermediate layers.
 
 *Coordinates making more sense now but still doing poorly for review_count*
 
-## Model 2_1
+### Model 2_1
 
 - Same as above but adjusted model to output log mu for review_count. Adjusted lost function and generation accordingly
 
@@ -91,6 +91,11 @@ A vanilla model. 50 and 50 for both intermediate layers.
 
 
 
+## TO-DO
+1. Implementing R-Tree for faster evaluation of spatial queries.
+2. Implmenting normalizing-flows
+3. Trying model out on a bigger dataset
+4. Try what Professor Cong proposed
 
 
 
