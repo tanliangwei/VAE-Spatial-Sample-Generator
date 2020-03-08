@@ -1,5 +1,7 @@
 # VAE Spatial Sample Generator
-This repository explores the possibility of using Variational Auto-Encoders (VAE) to learn the statistical characteristics of a certain specified dataset and generate samples having similar characteristics. This work presents an interesting direction of research for applications involving Approximate Query Processing (AQP) .
+This repository explores the possibility of using Variational Auto-Encoders (VAE) to learn the statistical characteristics of a certain specified dataset and generate samples having similar characteristics. This work presents an interesting direction of research for applications involving Approximate Query Processing (AQP) . 
+
+This is a project is done under the guidance and supervision of Professor Cong Gao and his student Li Xiucheng. Feel free to Email me at `liangweitan300895@gmail.com` for any questions. 
 
 ## How to use this repository
 
