@@ -23,9 +23,9 @@ This repository contains notebooks for training the proposed model, generating s
 
 The different models developed are stored inside `models` directory. Each model contains 3 kinds of scripts. 
 
-1. **Model Scripts** - Contains Model Architecture and facilitates model training.
-2. **Sample Generating Scripts** - Generate samples using the model trained from **Model Scripts**
-3. **Experiment Scripts** - Scripts for conducting experiments to evaluate model performance. Uses samples generated from **Sample Generating Scripts**.
+1. **Model Scripts (Model Tranining)** - Contains Model Architecture and facilitates model training.
+2. **Sample Generating Scripts (Sample Generation)** - Generate samples using the model trained from **Model Scripts**
+3. **Experiment Scripts (Experiments)** - Scripts for conducting experiments to evaluate model performance. Uses samples generated from **Sample Generating Scripts**.
 
 
 
