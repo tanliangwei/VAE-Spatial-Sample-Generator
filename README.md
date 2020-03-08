@@ -65,9 +65,13 @@ A vanilla model. 50 and 50 for both intermediate layers.
 
 - To ensure that review_count stays positive, we used Relu as the activation function for the mean. 
 
-*Still doing poorly for review_count*
+*Coordinates making more sense now but still doing poorly for review_count*
 
-*Coordinates making more sense now*
+## Model 2_1
+
+- Same as above but adjusted model to output log mu for review_count. Adjusted lost function and generation accordingly
+
+*Actually Results are much better. Achieved less than 10% error for review_count. Comparable to using poisson distribution.*
 
 ### Model 3
 - Same as above but with 12 and 8 for intermediate layers. 
