@@ -1,0 +1,20 @@
+Description
+
+Model 4:
+
+Basic VAE Model
+
+Changed dimensions of weights
+intermediate_dim_1 = 50
+intermediate_dim_2 = 50
+latent_dim = 4
+Reverted back to model 2's parameters since they perform better.
+
+Continuous Data - 
+	reviews - will now try a Poisson distribution since it might fit the underlying data better
+	latitude and longitude - normalise to 360 them before training and will likely use the Gaussian distribution afterwards. (Coordinate + 180) /360
+Categorical Data - One hot encoding, softmax
+Binary Data - Activation Sigmoid
+
+
+Conclusion
