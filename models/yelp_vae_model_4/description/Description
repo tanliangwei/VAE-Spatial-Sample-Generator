@@ -10,6 +10,10 @@ intermediate_dim_2 = 50
 latent_dim = 4
 Reverted back to model 2's parameters since they perform better.
 
+
+Main change - 
+reviews - will now try a Poisson distribution since it might fit the underlying data better
+
 Continuous Data - 
 	reviews - will now try a Poisson distribution since it might fit the underlying data better
 	latitude and longitude - normalise to 360 them before training and will likely use the Gaussian distribution afterwards. (Coordinate + 180) /360
@@ -18,3 +22,5 @@ Binary Data - Activation Sigmoid
 
 
 Conclusion
+
+Better results in general. Much better results. However, still not the best. Maybe can train longer. 
