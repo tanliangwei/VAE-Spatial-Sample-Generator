@@ -4,7 +4,8 @@ This repository explores the possibility of using Variational Auto-Encoders (VAE
 ## How to use this repository
 
 ### Installing the Dependecies
-This project runs on **Python 3.6**. The models are built using **Keras** and all the dependencies are written inside the `requirement.txt` file. A virtual environment is recommended. You can install one easily (Just Google).
+This project runs on **Python 3.6**. The models are built using **Keras** and all the dependencies are written inside the `requirement.txt` file. Also, the experiemnts are conducted inside **Jupyter Notebook**. A virtual environment is recommended. 
+
 
 Follow instructions below to set up environment. Open up your terminal and type the following instructions.
 
@@ -15,6 +16,19 @@ source vae_env/bin/activate # this activates the virtual environment
 
 pip3 install -r requirements.txt # installing dependencies stated in the requirements file. 
 ```
+
+For **Jupyter Notebook**:
+
+[https://jupyter.org/install](https://jupyter.org/install)
+
+```
+pip install notebook # to install
+
+jupyter notebook # to run it
+
+```
+
+
 **You are good to try out the models once the above is done. Just go into each of the models, open up the notebooks and run anything.**
 
 ### File Structure
