@@ -15,6 +15,7 @@ source vae_env/bin/activate # this activates the virtual environment
 
 pip3 install -r requirements.txt # installing dependencies stated in the requirements file. 
 ```
+**You are good to try out the models once the above is done. Just go into each of the models, open up the notebooks and run anything.**
 
 ### File Structure
 
