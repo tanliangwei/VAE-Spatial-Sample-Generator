@@ -27,7 +27,6 @@ For **Jupyter Notebook**:
 pip install notebook # to install
 
 jupyter notebook # to run it
-
 ```
 
 
@@ -42,6 +41,8 @@ The different models developed are stored inside `models` directory. Each model 
 1. **Model Scripts (Model Tranining)** - Contains Model Architecture and facilitates model training.
 2. **Sample Generating Scripts (Sample Generation)** - Generate samples using the model trained from **Model Scripts**
 3. **Experiment Scripts (Experiments)** - Scripts for conducting experiments to evaluate model performance. Uses samples generated from **Sample Generating Scripts**.
+
+**You can start ignore models 1 and 2 and start looking from the third model. It has the best performance thus far.**
 
 
 
