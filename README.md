@@ -44,6 +44,53 @@ The different models developed are stored inside `models` directory. Each model 
 
 **You can start ignore models 1 and 2 and start looking from the third model. It has the best performance thus far.**
 
+## Model Descriptions
+
+### Model 1
+A vanilla model. 50 and 50 for both intermediate layers.
+
+- stars - Multinomial Distribution - softmax activation
+
+- review_count - Gaussian Distribution - No activation
+
+- latitude and longitude - Gaussian Distribution - No activation
+
+- is_open - Bernoulli Distribution - Sigmoid Activation
+
+*Very Poor Results*
+
+### Model 2
+
+- To keep longitude and latitude within [-180, 180], by projecting the entire range within 0 and 1. Basically, (coordinate+180)/360.
+
+- To ensure that review_count stays positive, we used Relu as the activation function for the mean. 
+
+*Still doing poorly for review_count*
+
+*Coordinates making more sense now*
+
+### Model 3
+- Same as above but with 12 and 8 for intermediate layers. 
+
+*Worse as compared to Model 2*
+
+### Model 4 (Key Changes)
+- Used the Poisson Distribution for review_count
+-  12 - 8 for intermediate layers
+
+*Much better results for review_count aggregates*
+
+### Model 5
+- Same as above but with 50-50 intermediate layer weights. 
+
+*Better results as compared to model 4. Best Results thus far.*
+
+
+
+
+
+
+
 
 
 

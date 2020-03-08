@@ -5,10 +5,9 @@ Model 4:
 Basic VAE Model
 
 Changed dimensions of weights
-intermediate_dim_1 = 50
-intermediate_dim_2 = 50
+intermediate_dim_1 = 12
+intermediate_dim_2 = 8
 latent_dim = 4
-Reverted back to model 2's parameters since they perform better.
 
 
 Main change - 
