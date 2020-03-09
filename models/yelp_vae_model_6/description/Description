@@ -24,4 +24,6 @@ Binary Data - Activation Sigmoid
 
 Conclusion
 
-Better results in general. Much better results. However, still not the best. Maybe can train longer. 
+Better results in general. Much better results. However, still not the best. Maybe can train longer. Very competitive actually.
+
+Still perform very poorly for spatial queries despite standard scaling.
