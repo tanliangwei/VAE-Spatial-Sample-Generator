@@ -22,6 +22,5 @@ Conclusion
 
 Poor results - Still poor results unable to predict well 
 	- very poor results for review_count predictions
-
-Latitude and longitude exceeds -180/+180
-Review_count might turn negative which does not make any sense
+Better review count but still worse than model 6
+Very bad spatial performance even though samples are within range. Did not manage to get any samples in certain query of rare subpopulations.
