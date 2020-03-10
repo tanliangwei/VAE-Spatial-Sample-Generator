@@ -1,6 +1,6 @@
 Description
 
-Model 9:
+Model 10:
 
 Basic VAE Model
 
@@ -13,6 +13,7 @@ Reverted to 50, 50 for intermediate layer weights since it gave better results i
 Main Change
 To use mixture models at the output layer for the coordinates.
 Back to diggonal covariance
+Will convert coordinates to mecator coordinates before attempting learning.
 
 
 
