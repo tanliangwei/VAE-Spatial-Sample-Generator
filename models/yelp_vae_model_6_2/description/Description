@@ -1,6 +1,6 @@
 Description
 
-Model 8:
+Model 6_2:
 
 Basic VAE Model
 
@@ -11,8 +11,8 @@ latent_dim = 4
 Reverted to 50, 50 for intermediate layer weights since it gave better results in Model 2. 
 
 Main Change
-To use mixture models at the output layer for the coordinates.
-Used a multi normal triangular covariance
+Changed to tensorflow 2
+Used multinormal with triangular covariance instead of the standard triangular one
 
 
 Others
@@ -23,5 +23,5 @@ Binary Data - Activation Sigmoid
 
 
 Conclusion
-Slightly worse off for normal predicates
-Better for spatial predicates, at least no empty subpopulation
+Results pretty much remain the same.
+

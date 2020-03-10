@@ -92,10 +92,13 @@ A vanilla model. 50 and 50 for both intermediate layers.
 
 
 ## TO-DO
-1. Implementing R-Tree for faster evaluation of spatial queries.
-2. Implmenting normalizing-flows
-3. Trying model out on a bigger dataset
-4. Try what Professor Cong proposed
+1. Implementing R-Tree for faster evaluation of spatial queries. (Done)
+2. Try MDN (Done)
+3. Try converting to mercator coordinate
+3. Complete documentation for 6_2 and 8
+4. Implmenting normalizing-flows
+5. Trying model out on a bigger dataset
+6. Try what Professor Cong proposed
 
 
 
