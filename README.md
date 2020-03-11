@@ -210,6 +210,12 @@ Evaluating Error for coordinates and range
 5. Trying model out on a bigger dataset
 6. Try what Professor Cong proposed
 
+## Links
+1. http://bjlkeng.github.io/posts/variational-autoencoders-with-inverse-autoregressive-flows/
+2. https://srbittner.github.io/2019/06/26/normalizing_flows/
+3. https://github.com/LukasRinder/normalizing-flows/blob/master/example_training.ipynb
+4. https://github.com/LukasRinder/normalizing-flows/blob/master/utils/train_utils.py
+
 
 
 
