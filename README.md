@@ -215,6 +215,7 @@ Evaluating Error for coordinates and range
 2. https://srbittner.github.io/2019/06/26/normalizing_flows/
 3. https://github.com/LukasRinder/normalizing-flows/blob/master/example_training.ipynb
 4. https://github.com/LukasRinder/normalizing-flows/blob/master/utils/train_utils.py
+5. https://github.com/braintimeException/vi-with-normalizing-flows/blob/master/NF/autoencoders/VariationalAutoencoder.py
 
 
 
