@@ -1,0 +1,27 @@
+Description
+
+Model 8:
+
+Basic VAE Model
+
+Changed dimensions of weights
+intermediate_dim_1 = 50 
+intermediate_dim_2 = 50
+latent_dim = 4
+Reverted to 50, 50 for intermediate layer weights since it gave better results in Model 2. 
+
+Main Change
+To use mixture models at the output layer for the coordinates.
+Used a multi normal triangular covariance
+
+
+Others
+reviews - will now try a Poisson distribution since it might fit the underlying data better
+latitude and longitude - normalise using standard normalisation (having 0 mean and 1 variance) before training and will likely use the Gaussian distribution afterwards.
+Categorical Data - One hot encoding, softmax
+Binary Data - Activation Sigmoid
+
+
+Conclusion
+Slightly worse off for normal predicates
+Better for spatial predicates, at least no empty subpopulation

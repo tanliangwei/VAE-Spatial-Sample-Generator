@@ -216,6 +216,12 @@ Evaluating Error for coordinates and range
 3. https://github.com/LukasRinder/normalizing-flows/blob/master/example_training.ipynb
 4. https://github.com/LukasRinder/normalizing-flows/blob/master/utils/train_utils.py
 5. https://github.com/braintimeException/vi-with-normalizing-flows/blob/master/NF/autoencoders/VariationalAutoencoder.py
+6. https://github.com/bjlkeng/sandbox/blob/master/notebooks/vae-inverse_autoregressive_flows/vae-iaf-mnist.ipynb
+7. https://deepgenerativemodels.github.io/notes/
+8. https://blog.evjang.com/2018/01/nf1.html
+9. https://medium.com/@a.ydobon/tensorflow-2-0-variational-auto-encoder-vae-part-ii-df8adcd02f20
+10. https://medium.com/tensorflow/variational-autoencoders-with-tensorflow-probability-layers-d06c658931b7
+11. https://github.com/tensorflow/probability/tree/master/tensorflow_probability/examples/jupyter_notebooks
 
 
 
